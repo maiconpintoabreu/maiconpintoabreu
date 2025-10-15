@@ -1,9 +1,15 @@
 ## Hi there 👋
 
-#### A Backend Software Engineer by day 🌞 and a Raylib Community Contributor by night 🌓
+#### A Backend Software Engineer at Adsecure by day 🌞 and a Raylib Community Contributor by night 🌓
+[![GitHub Maicon](https://img.shields.io/github/followers/maiconpintoabreu?label=follow&style=social)](https://github.com/maiconpintoabreu)
 
-- ⚙️ I use daily: `.php`, `.js`, `.ts`, `.c`, `.zig`
-- 🔭 I’m currently working on [`.space-researcher`](https://github.com/maiconpintoabreu/space-researcher)
-- 🌱 I’m currently learning [`.zig`](https://ziglang.org)
-- 👯 I’m contributing to [`.raylib`](https://github.com/raysan5/raylib) and [`.raylib-zig`](https://github.com/raylib-zig/raylib-zig)
-- 🤗 My portfolio (in construction) on [website](https://maicongamedev.ovh)
+```zig
+pub const Profile = struct {
+    dailyLangs: [5][]const u8 = .{ ".php", ".js", ".ts", ".c", ".zig" },
+    currentlyWorking: []const u8 = "space-researcher",
+    currentlyLearning: []const u8 = ".zig",
+    contributing: [2][]const u8 = .{ "raylib", "raylib-zig" },
+};
+```
+
+🤗 My portfolio on [website](https://maicongamedev.ovh)
